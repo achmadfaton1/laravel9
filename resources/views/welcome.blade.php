@@ -1,1 +1,1 @@
-Aplikasi
+@extends('layouts.app')
