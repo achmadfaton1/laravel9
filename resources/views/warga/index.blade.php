@@ -15,7 +15,7 @@
         </tr>
         @foreach ($warga as $w)
             <tr>
-                <td>{{ $w->id }}</td>
+                <td>{{ $loop->iteration }}</td>
                 <td>{{ $w->name }}</td>
                 <td>{{ $w->nik }}</td>
                 <td>{{ $w->no_kk }}</td>
